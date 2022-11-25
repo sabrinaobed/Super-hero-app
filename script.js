@@ -41,7 +41,7 @@ const stats = Object.keys(character.powerstats).map(stat => {
   return`<p>${statToEmoji[stat]} ${stat.toUpperCase()}: ${character.powerstats[stat]}</p>`
 }).join('')
   
-  //console.log(stats.join(''))
+
   heroImageDiv.innerHTML = `${name}${img}${stats}`
   //return stats.join('')
 }
